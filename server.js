@@ -3,7 +3,7 @@ const path = require('path')
 const Web3 = require('web3')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = 3000
 
 const web3 = new Web3("https://goerli.infura.io/v3/3376a33c419a4d249d680fa54ff8b6bf")
 
